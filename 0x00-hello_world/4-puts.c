@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) /* Displays a message on the terminal */
+/*Display a message*/ int main(void)
 {
 	const char *msg = "\"Programming is like building a multilingual puzzle";
 
