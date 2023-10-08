@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
-*shoes size of  data types.
-*/int main(void)
+*shows the  size of the types
+*/
+int main(void)
 {
 	char c;
 	int i;
