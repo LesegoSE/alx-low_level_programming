@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-*shows the  size of the types
-*/
-int main(void)
+*main - Entry point
+*
+*Return: Always 0 (Success)
+*/int main(void)
 {
 	char c;
 	int i;
