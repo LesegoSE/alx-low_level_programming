@@ -13,6 +13,11 @@ int main (void)
 		putchar(t);
 	}
 
+	for (t = 'a'; t <= 'f'; t++)
+	{
+		putchar(t);
+	}
+
 	putchar('\n');
 
 	return (0);
