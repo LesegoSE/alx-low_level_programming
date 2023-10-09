@@ -4,7 +4,7 @@
 *
 *Return - Always (Success);
 */
-int main(void)
+int main(void) /* returns a int value */
 {
 	int i;
 
