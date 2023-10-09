@@ -2,9 +2,9 @@
 /**
 *main - Entry point
 *
-*Return - Always (Success);
+*Return: Always 0 (Success);
 */
-int main(void) /* returns a int value */
+int main(void)
 {
 	int i;
 
