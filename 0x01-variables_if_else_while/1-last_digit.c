@@ -9,8 +9,9 @@
 int main(void)
 {
 	int n;
-	int ldig = n % 10;
+	int ldig;
 
+	ldig = n % 10;
 	srand (time(0));
 	n = rand() - RAND_MAX / 2;
 	if(ldig > 5)
