@@ -7,14 +7,16 @@
  */
 int _isupper(int c)
 {
-	int l;
+	int i;
 
-	if (isupper(c))
+	if (isupper(c) != 0)
 	{
-		return (1);
+		i = 1;
 	}
 	else
 	{
-		return (0);
+		i = 0;
 	}
+
+	return (i);
 }
