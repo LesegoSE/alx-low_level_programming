@@ -4,6 +4,7 @@
  *@c: varibel to be checked
  *Return: 0 if false 1 if true
 */
+
 int _isdigit(int c)
 {
 	int i;
