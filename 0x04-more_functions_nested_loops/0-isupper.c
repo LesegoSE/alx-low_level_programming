@@ -1,5 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
 
 /**
  * main - check the code.
@@ -21,5 +20,3 @@ int _isupper(int c)
 
 	return _putchar(l);
 }
-
-#endif
