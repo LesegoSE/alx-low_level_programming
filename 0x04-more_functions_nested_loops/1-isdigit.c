@@ -17,5 +17,5 @@ int _isdigit(int c)
 		i = 1;
 	}
 
-	return (i)
+	return (i);
 }
