@@ -1,7 +1,3 @@
-#ifndef MAIN_C
-#define MAIN_C
+#include "main.c"
 
-int _isupper(int c);
 int _putchar(int c);
-
-#endif
