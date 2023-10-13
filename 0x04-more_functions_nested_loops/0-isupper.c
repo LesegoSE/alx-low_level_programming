@@ -1,10 +1,10 @@
 #include <ctype.h>
 
 /**
- * main - check the code.
- * 
- * Return: Always 0.
- */
+*_isupper - function that checks if value is in upper case..
+*@c: tested variable
+*Return: returns 0 if its not a capital and 1 if it is.
+*/
 int _isupper(int c)
 {
 	int i;
