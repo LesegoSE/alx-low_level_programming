@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*main - prints num 1 - 100 and new line
-*but prints Fizz for multiples of three
-*Return: Alwasy 0 (Success)
+*main - Prints fizz buzz and numbers
+*
+*Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			print("FizzBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
@@ -25,8 +25,8 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", i);
-		}		
+			printf("%d ", i);
+		}
 	}
 
 	printf("\n");
