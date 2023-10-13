@@ -1,4 +1,4 @@
-#include "main.h"
+#include <ctype.h>
 
 /**
  * main - check the code.
@@ -11,12 +11,10 @@ int _isupper(int c)
 
 	if (isupper(c))
 	{
-		l = 1;
+		return (1);
 	}
 	else
 	{
-		l = 0;
+		return (0);
 	}
-
-	return _putchar(l);
 }
