@@ -7,12 +7,15 @@
 void print numbers(void)
 {
 	int i = 0;
+	char p;
 
 	do while (i <= 9)
 	{
-		_putchar(i);
+		putchar(i);
 		i++;
 	}
 
 	_putchar ("\n");
+
+	return ();
 }
