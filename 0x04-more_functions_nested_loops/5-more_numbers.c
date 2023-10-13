@@ -6,7 +6,7 @@
 *Return: void
 */
 
-void more -numbers(void)
+void more_numbers(void)
 {
 	int i;
 	int n;
