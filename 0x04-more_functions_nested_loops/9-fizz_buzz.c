@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
 *main - Prints fizz buzz and numbers
