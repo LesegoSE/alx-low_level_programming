@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
 *main - Prints fizz buzz and numbers
-*
 *Return: Always 0 (Success)
 */
 int main(void)
