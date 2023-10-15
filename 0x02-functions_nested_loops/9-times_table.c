@@ -6,7 +6,7 @@
 * Return: void
 */
 
-int main(void)
+void times_table(void)
 {
 	int i;
 	int b;
