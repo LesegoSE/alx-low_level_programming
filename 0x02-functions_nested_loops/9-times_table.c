@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* tiems_table - prints the times table from 0 - 9.
+* tims_table - prints the times table from 0 - 9.
 *
 * Return: void
 */
@@ -39,5 +39,4 @@ int main(void)
 		}
 		_putchar('\n');
 	}
-}
 }
