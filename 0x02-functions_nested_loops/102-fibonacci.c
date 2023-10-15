@@ -19,7 +19,7 @@ int main(void)
 
 	for (n = 0; n < 50; n++)
 	{
-		add = f + f;
+		add = f1 + f;
 		printf("%lu", add);
 
 		f = f1;
@@ -33,5 +33,5 @@ int main(void)
 			printf(", ");
 		}
 	}
-		return(0);
+		return (0);
 }
