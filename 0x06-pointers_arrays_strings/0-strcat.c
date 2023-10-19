@@ -4,6 +4,7 @@
  * _strcat - function that concatenates text in variables named dest and src
  * @dest: pointer passing string to be concatenated.
  * @src: pointer passing string to be concatenated.
+ *
  * Return: concatenated string.
  */
 
@@ -25,7 +26,7 @@ char *_strcat(char *dest, char *src)
 		n++;
 		i++;
 	}
-
 	dest[n] = '\0';
+	
 	return (dest);
 }
