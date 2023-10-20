@@ -14,11 +14,9 @@ char *leet(char *b)
 	char st1[] = "aAeEoOtTlL";
 	char st2[] = "4433007711";
 
-	n = 0;
-	c = 0;
-	for (; b[n] != '\0'; n++)
+	for (n = 0; b[n] != '\0'; n++)
 	{
-		for (; c < 10; c++)
+		for (c = 0; c < 10; c++)
 		{
 			if (b[n] == st1[c])
 			{
@@ -26,5 +24,5 @@ char *leet(char *b)
 			}
 		}
 	}
-	return (b);
+return (b);
 }
