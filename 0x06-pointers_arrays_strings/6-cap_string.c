@@ -2,38 +2,28 @@
 
 /**
  * cap_string - a function that capitalizes all words of a string.
- * @s: parameter pointer
+ * @b - parameter pointer
  *
- * Return: char variable s
+ * Return: pointer s
  */
 
-char *cap_string(char *s)
+char *cap_string(char *b)
 {
-	int b;
 	int n;
 
-	b = 0;
 	n = 0;
-
-	while (*(s + b) != '\0')
+	while (b[n])
 	{
-		if (*(s + b) >= 'a' && *(s + b) <= 'z')
+		while (!(b[n] >= 'a' && str[n] <= 'z'))
 		{
-			if (b == 0)
+			n++;
+
+			if (b[n- 1] == ' ' || b[n- 1] == '\t' || b[n- 1] == '\n' || b[n- 1] == ',' || b[n- 1] == ';' || b[n- 1] == '.' || b[n- 1] == '!' || b[n- 1] == '?' || b[n- 1] == '"' || b[n- 1] == '(' || b[n- 1] == ')' || b[n- 1] == '{' || b[n- 1] == '}' || n == 0)
 			{
-				*(s + b) = *(s + b) - 32;
-			} else
-			{
-				for (; n <= 12; n++)
-				{
-					if (a[n] == *(s + b - 1))
-					{
-						*(s + b) = *(s + b) - 32;
-					}
-				}
+				b[n] -= 32;
 			}
+			n++;
 		}
-		b++;
+		return (b);
 	}
-	return (s);
 }
