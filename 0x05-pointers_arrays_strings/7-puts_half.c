@@ -6,7 +6,7 @@
  * Return: integer
  */
 
-void puts_half(char *str) 
+void puts_half(char *str)
 {
 	int l;
 	int start_index;
