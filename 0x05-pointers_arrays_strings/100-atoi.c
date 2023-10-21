@@ -3,34 +3,47 @@
 /**
  * _atoi - a function that convert a string to an integer.
  * @s: parameter pointer
- * Return: integer
+ * Return: int
  */
 
 int _atoi(char *s)
 {
-	int num;
-	int f;
+	int r;
+	int s;
 	int i;
-	int j;
+	int c;
 
-	f = 1;
 	i = 0;
-	j = 0;
-	num  = 0;
-
-	if (s[0] == '-')
+	r = 0;
+	s = 1;
+	c = 0;
+	while (s[i] != '\0' && (s[i] < '0' || s[i] > '9'))
 	{
-		f = -1;
-		i++;
-	} else if (s[0] == '+')
-	{
+		if (s[i] == '-')
+		{
+			s = -s;
+		}
 		i++;
 	}
 	while (s[i] >= '0' && s[i] <= '9')
 	{
-		num = num * 10 + (s[i] - '0');
+		int digit;
+
+		digit = s[i] - '0';
+		if (r > (2147483647 - digit) / 10)
+		{
+			if (s == 1)
+			{
+				return (2147483647);
+
+			} else
+			{
+				return (-2147483648);
+			}
+		}
+		r = r * 10 + digit;
 		i++;
 	}
-	j = num * f;
-	return (j);
+	c = r * s;
+	return(c);
 }
