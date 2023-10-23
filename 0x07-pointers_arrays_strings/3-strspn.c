@@ -10,29 +10,33 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count;
-	int found;
 	int cnt;
 
 	count = 0;
-	found = 1;
 
-	while (*s && found)
+	for (; *s; s++)
 	{
+		int found;
+
 		found = 0;
 
-		for (int cnt = 0; accept[cnt]; cnt++)
+		for (cnt = 0; accept[cnt]; cnt++)
 		{
 			if (*s == accept[cnt])
 			{
-				count++;
 				found = 1;
 				break;
 			}
 		}
+
 		if (found)
 		{
-			s++;
+			count++;
+		} else
+		{
+			break;
 		}
 	}
 	return count;
+}
 }
