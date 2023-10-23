@@ -8,8 +8,8 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int n;
 	int n1;
+	int n;
 
 	for (n1 = 0; n1 < 8; n1++)
 	{
