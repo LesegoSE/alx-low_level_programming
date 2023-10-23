@@ -9,34 +9,26 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count;
-	int cnt;
+	unsigned int cnt;
+	int c;
 
-	count = 0;
+	cnt = 0;
 
-	for (; *s; s++)
+	while (*s)
 	{
-		int found;
-
-		found = 0;
-
-		for (cnt = 0; accept[cnt]; cnt++)
+		for (c = 0; accept[c]; c++)
 		{
-			if (*s == accept[cnt])
+			if (*s == accept[c])
 			{
-				found = 1;
+				cnt++;
 				break;
+			}else if (accept[c + 1] == '\0')
+			{
+				return (cnt);
 			}
 		}
-
-		if (found)
-		{
-			count++;
-		} else
-		{
-			break;
-		}
+			s++;
 	}
-	return count;
+		return (cnt);
 }
-}
+
