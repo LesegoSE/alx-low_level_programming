@@ -22,7 +22,7 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				cnt++;
 				break;
-			}else if (accept[c + 1] == '\0')
+			} else if (accept[c + 1] == '\0')
 			{
 				return (cnt);
 			}
