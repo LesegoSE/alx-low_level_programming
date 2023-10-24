@@ -24,5 +24,5 @@ void print_diagsums(int *a, int size)
 	{
 		cnt1 += a[n * size + (size - n - 1)];
 	}
-	printf("%d, %d\n", cnt, cnt1);
+	_putchar("%d, %d", cnt, cnt1);
 }
