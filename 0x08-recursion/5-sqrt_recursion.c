@@ -7,7 +7,17 @@
  * Return: int
  */
 
-int rec(int i, int c);
+int rec(int i, int c)
+{
+	if (i == c)
+	{
+		return (1);
+	} else if (i % c == 0)
+	{
+		return (0);
+	}
+return (rec(i, c + 1));
+}
 
 /**
  * _sqrt_recursion - a function that returns the natural square root of a number.
@@ -21,17 +31,5 @@ int _sqrt_recursion(int n)
 	{
 		return (0);
 	}
-	return (rec(n, 2));
-}
-
-int rec(int i, int c)
-{
-	if (i == c)
-	{
-		return (1);
-	} else if (i % c == 0)
-	{
-		return (0);
-	}
-	return (rec(i, c + 1));
+return (rec(n, 2));
 }
