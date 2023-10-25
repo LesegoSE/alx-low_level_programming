@@ -21,7 +21,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return (prime2(n, 2));
+	return (rec(n, 2));
 }
 
 int rec(int i, int c)
@@ -33,5 +33,5 @@ int rec(int i, int c)
 	{
 		return (0);
 	}
-	return (prime2(i, c + 1));
+	return (rec(i, c + 1));
 }
