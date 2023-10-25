@@ -10,12 +10,12 @@
 int rec(int i, int c);
 
 /**
- * is_prime_number - a function that returns the natural square root of a number.
+ * _sqrt_recursion - a function that returns the natural square root of a number.
  * @n: prameter variable
  * Return: int
  */
 
-int is_prime_number(int n)
+int _sqrt_recursion(int n)
 {
 	if (n <= 1)
 	{
