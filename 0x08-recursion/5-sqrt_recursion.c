@@ -1,35 +1,30 @@
 #include "main.h"
 
 /**
- * rec - Iterates through 1 to n value
- * @i: prameter variable
- * @c: prameter variable
- * Return: int
+ * cube -  loops between 1 to the n value
+ * @i: parameter variable
+ * @c: parameter variable
+ * Return: int value
  */
 
-int rec(int i, int c)
+int cube(int i, int c)
 {
-	if (i == c)
+	if (c * c == i)
 	{
-		return (1);
-	} else if (i % c == 0)
+		return (c);
+	} else if (c * c > i)
 	{
-		return (0);
+		return (-1);
 	}
-return (rec(i, c + 1));
+return (cube(i, c + 1));
 }
-
 /**
  * _sqrt_recursion - a function that returns the natural square root of a number.
- * @n: prameter variable
- * Return: int
+ * @n: parameter variable
+ * Return: square root number
  */
 
 int _sqrt_recursion(int n)
 {
-	if (n <= 1)
-	{
-		return (0);
-	}
-return (rec(n, 2));
+	return (cube(n, 1));
 }
