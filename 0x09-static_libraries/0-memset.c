@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _isupper - Entry point
+  * _memset - Entry point
   * @s: parameter variable
   * @b: parameter variable
   * @n: parameter variable
