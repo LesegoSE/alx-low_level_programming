@@ -4,7 +4,7 @@
 
 /**
  * main - adds positive numbers.
- * @argc - counts the number of args passed.
+ * @argc: counts the number of args passed.
  * @argv: array that contains the program command line arguments.
  * Return: 0 if no number passed, else 1
  */
