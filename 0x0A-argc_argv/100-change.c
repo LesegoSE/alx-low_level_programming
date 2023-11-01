@@ -14,9 +14,8 @@ int main(int argc, char *argv[])
 	int i;
 	int cents;
 	int ncoins;
-	int coins[];
-
-	coins[] = {25, 10, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};
+	
 	cents = atoi(argv[1]);
 	ncoins = 0;
 
