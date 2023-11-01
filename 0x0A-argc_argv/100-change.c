@@ -16,14 +16,15 @@ int main(int argc, char *argv[])
 	int ncoins;
 	int coins[] = {25, 10, 5, 2, 1};
 	
-	cents = atoi(argv[1]);
-	ncoins = 0;
-
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	cents = atoi(argv[1]);
+	ncoins = 0;
+
 	for (i = 0; cents > 0; i++)
 	{
 		while (cents >= coins[i])
