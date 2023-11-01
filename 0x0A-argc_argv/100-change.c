@@ -4,7 +4,7 @@
 /**
  * main - prints the minimum number of coins
  * to make change for an amount of money
- * @argc - counts the number of args passed.
+ * @argc: counts the number of args passed.
  * @argv: array that contains the program command line arguments.
  * Return: 0 Always success.
  */
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	coins[] = {25, 10, 5, 2, 1};
 	cents = atoi(argv[1]);
-	ncoins; = 0;
+	ncoins = 0;
 
 	if (argc != 2)
 	{
