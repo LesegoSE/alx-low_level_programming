@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - multiplies two numbers.
+ * @argc - counts the number of args passed.
+ * @argv: array that contains the program command line arguments.
+ */
 int main(int argc, char *argv[])
 {
 	int num1;
