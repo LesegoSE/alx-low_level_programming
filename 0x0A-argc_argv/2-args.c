@@ -1,7 +1,7 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
  * main - prints all arguments it receives.
- * @argc - counts the number of args passed.
+ * @argc: counts the number of args passed.
  * @argv: array that contains the program command line arguments.
  * Return: 0 Always success.
  */
