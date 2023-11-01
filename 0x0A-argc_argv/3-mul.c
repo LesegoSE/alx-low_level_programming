@@ -3,8 +3,9 @@
 
 /**
  * main - multiplies two numbers.
- * @argc - counts the number of args passed.
+ * @argc: counts the number of args passed.
  * @argv: array that contains the program command line arguments.
+ * Return: 1 if no args found else 0.
  */
 int main(int argc, char *argv[])
 {
