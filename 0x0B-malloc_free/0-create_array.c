@@ -12,20 +12,20 @@
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *cr;
+	char *r;
 
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	cr = malloc(sizeof(c) * size);
-	if (cr == NULL)
+	r = malloc(sizeof(c) * size);
+	if (r == NULL)
 	{
 		return (NULL);
 	}
 	for (i = 0; i < size; i++)
 	{
-		cr[i] = c;
+		r[i] = c;
 	}
-	return (cr);
+	return (r);
 }
