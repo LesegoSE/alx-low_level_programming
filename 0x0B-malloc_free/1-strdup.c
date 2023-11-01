@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * _strdup - returns a pointer to a newly allocated space in memory
+ * @str: parameter variable
+ * Return: cahr
+ */
+
 char *_strdup(char *str)
 {
 	char *ou;
