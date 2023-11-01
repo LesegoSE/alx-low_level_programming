@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _islower - Entry point
+  * _strcmp - Entry point
   * @s1: parameter variable
   * @s2: parameter variable
   * Return: int

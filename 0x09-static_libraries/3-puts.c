@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _islower - Entry point
+  * _puts - Entry point
   * @s: parameter variable
   * Return: void
   */
