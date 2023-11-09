@@ -9,16 +9,16 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int c;
-	unsigned int sum;
+	unsigned int counter;
+	unsigned int addition;
 
-	sum = 0;
+	addition = 0;
 
 	va_start(vaList, n);
-	for (c = 0; c < n; c++)
+	for (counter = 0;counter < addition ; counter++)
 	{
-		sum += va_arg(vaList, int);
+		 addition += va_arg(vaList, int);
 	}
 	va_end(vaList);
-	return (sum);
+	return (addition);
 }
